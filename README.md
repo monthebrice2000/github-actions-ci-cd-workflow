@@ -10,7 +10,7 @@
 
 <img src="githubcicd.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> ce projet présente les templates pour build et déployer nos applications sur le cloud azure de facon continue sans oublier de gérer l'intégration continue.
 
 ### Ajustes e melhorias
 
