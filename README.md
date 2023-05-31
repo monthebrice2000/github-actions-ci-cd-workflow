@@ -1,4 +1,4 @@
-# Nome do projeto
+# Build-and-Deploy dot net app in azure cloud
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -11,6 +11,14 @@
 <img src="githubcicd.png" alt="exemplo imagem">
 
 > ce projet présente les templates pour build et déployer nos applications sur le cloud azure de facon continue sans oublier de gérer l'intégration continue.
+
+## Results
+
+<img src="sample-one.png" alt="exemplo imagem">
+<img src="sample-two.png" alt="exemplo imagem">
+<img src="sample-three.png" alt="exemplo imagem">
+<img src="sample-four.png" alt="exemplo imagem">
+<img src="sample-five.png" alt="exemplo imagem">
 
 ### Ajustes e melhorias
 
