@@ -1,0 +1,22 @@
+[2023-06-01 20:38:20Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:38:20Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials'
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:38:20Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner'
+[2023-06-01 20:38:20Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-06-01 20:38:20Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-06-01 20:38:20Z INFO Listener] Version: 2.304.0
+[2023-06-01 20:38:20Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-01 20:38:20Z INFO Listener] Culture: fr-FR
+[2023-06-01 20:38:20Z INFO Listener] UI Culture: fr-FR
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:38:20Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:38:20Z INFO Listener] Validating directory permissions for: 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:38:20Z INFO CommandLineParser] Parse
+[2023-06-01 20:38:20Z INFO CommandLineParser] Parsing 1 args
+[2023-06-01 20:38:20Z INFO CommandLineParser] parsing argument
+[2023-06-01 20:38:20Z INFO CommandLineParser] HasArgs: False
+[2023-06-01 20:38:20Z INFO CommandLineParser] Adding Command: configure
+[2023-06-01 20:38:20Z INFO Listener] Arguments parsed

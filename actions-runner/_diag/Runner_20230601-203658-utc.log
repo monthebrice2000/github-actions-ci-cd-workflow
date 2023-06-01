@@ -1,0 +1,73 @@
+[2023-06-01 20:36:58Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner'
+[2023-06-01 20:36:59Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-06-01 20:36:59Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-06-01 20:36:59Z INFO Listener] Version: 2.304.0
+[2023-06-01 20:36:59Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-01 20:36:59Z INFO Listener] Culture: fr-FR
+[2023-06-01 20:36:59Z INFO Listener] UI Culture: fr-FR
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO Listener] Validating directory permissions for: 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO CommandLineParser] Parse
+[2023-06-01 20:36:59Z INFO CommandLineParser] Parsing 1 args
+[2023-06-01 20:36:59Z INFO CommandLineParser] parsing argument
+[2023-06-01 20:36:59Z INFO CommandLineParser] HasArgs: False
+[2023-06-01 20:36:59Z INFO CommandLineParser] Adding Command: remove
+[2023-06-01 20:36:59Z INFO Listener] Arguments parsed
+[2023-06-01 20:36:59Z INFO Runner] ExecuteCommand
+[2023-06-01 20:36:59Z INFO ConfigurationStore] currentAssemblyLocation: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin\Runner.Listener.dll
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] binPath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] RootFolder: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] ConfigFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] CredFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_migrated'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] MigratedCredFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_migrated
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 20:36:59Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 20:36:59Z INFO HostContext] Well known config file 'Service': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.service'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.service
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-01 20:36:59Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-01 20:36:59Z INFO CommandSettings] Command 'remove': 'True'
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'local': 'False'
+[2023-06-01 20:36:59Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-01 20:36:59Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-01 20:36:59Z INFO ConfigurationStore] IsConfigured()
+[2023-06-01 20:36:59Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-01 20:36:59Z INFO ConfigurationStore] HasCredentials()
+[2023-06-01 20:36:59Z INFO ConfigurationStore] stored True
+[2023-06-01 20:36:59Z INFO ConfigurationStore] Read setting file: 323 chars
+[2023-06-01 20:36:59Z INFO CommandSettings] Arg 'token': ''
+[2023-06-01 20:36:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 20:36:59Z INFO PromptManager] ReadValue
+[2023-06-01 20:36:59Z INFO Terminal] WRITE: Enter runner remove token: 
+[2023-06-01 20:36:59Z INFO Terminal] READ SECRET
+[2023-06-01 20:37:19Z INFO Terminal] Read value: '***'
+[2023-06-01 20:37:19Z ERR  Terminal] WRITE ERROR: Http response code: BadRequest from 'POST https://api.github.com/actions/runner-registration' (Request Id: 592F:70E0:A3B3442:A528922:64790180)
+[2023-06-01 20:37:19Z ERR  Terminal] WRITE ERROR: 
+[2023-06-01 20:37:19Z ERR  ConfigurationManager] Failed to get tenant credentials -- Atempt: 1
+[2023-06-01 20:37:19Z ERR  ConfigurationManager] System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.GetTenantCredential(String githubUrl, String githubToken, String runnerEvent)
+[2023-06-01 20:37:19Z INFO ConfigurationManager] Retrying in 2 seconds
+[2023-06-01 20:37:21Z INFO Terminal] WRITE LINE: Exiting...

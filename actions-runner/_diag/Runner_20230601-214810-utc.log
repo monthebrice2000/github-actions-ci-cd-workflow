@@ -1,0 +1,256 @@
+[2023-06-01 21:48:10Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-01 21:48:10Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:10Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:10Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials'
+[2023-06-01 21:48:10Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner'
+[2023-06-01 21:48:11Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-06-01 21:48:11Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-06-01 21:48:11Z INFO Listener] Version: 2.304.0
+[2023-06-01 21:48:11Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-01 21:48:11Z INFO Listener] Culture: fr-FR
+[2023-06-01 21:48:11Z INFO Listener] UI Culture: fr-FR
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO Listener] Validating directory permissions for: 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO CommandLineParser] Parse
+[2023-06-01 21:48:11Z INFO CommandLineParser] Parsing 5 args
+[2023-06-01 21:48:11Z INFO CommandLineParser] parsing argument
+[2023-06-01 21:48:11Z INFO CommandLineParser] HasArgs: False
+[2023-06-01 21:48:11Z INFO CommandLineParser] Adding Command: configure
+[2023-06-01 21:48:11Z INFO CommandLineParser] parsing argument
+[2023-06-01 21:48:11Z INFO CommandLineParser] HasArgs: True
+[2023-06-01 21:48:11Z INFO CommandLineParser] arg: url
+[2023-06-01 21:48:11Z INFO CommandLineParser] parsing argument
+[2023-06-01 21:48:11Z INFO CommandLineParser] HasArgs: True
+[2023-06-01 21:48:11Z INFO CommandLineParser] Adding option 'url': 'https://github.com/monthebrice2000/github-actions-ci-cd-workflow'
+[2023-06-01 21:48:11Z INFO CommandLineParser] parsing argument
+[2023-06-01 21:48:11Z INFO CommandLineParser] HasArgs: True
+[2023-06-01 21:48:11Z INFO CommandLineParser] arg: token
+[2023-06-01 21:48:11Z INFO CommandLineParser] parsing argument
+[2023-06-01 21:48:11Z INFO CommandLineParser] HasArgs: True
+[2023-06-01 21:48:11Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-06-01 21:48:11Z INFO Listener] Arguments parsed
+[2023-06-01 21:48:11Z INFO Runner] ExecuteCommand
+[2023-06-01 21:48:11Z INFO ConfigurationStore] currentAssemblyLocation: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin\Runner.Listener.dll
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] binPath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] RootFolder: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO HostContext] Well known config file 'Runner': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] ConfigFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.runner
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO HostContext] Well known config file 'Credentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] CredFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_migrated'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] MigratedCredFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_migrated
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:11Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:11Z INFO HostContext] Well known config file 'Service': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.service'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.service
+[2023-06-01 21:48:11Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-01 21:48:11Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-01 21:48:11Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-01 21:48:11Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-01 21:48:11Z INFO CommandSettings] Command 'configure': 'True'
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE: |                       
+[2023-06-01 21:48:11Z INFO Terminal] WRITE: Self-hosted runner registration
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE:                         |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-06-01 21:48:11Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-06-01 21:48:11Z INFO ConfigurationManager] ConfigureAsync
+[2023-06-01 21:48:11Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2023-06-01 21:48:11Z INFO ConfigurationStore] IsConfigured()
+[2023-06-01 21:48:11Z INFO ConfigurationStore] IsConfigured: False
+[2023-06-01 21:48:11Z INFO ConfigurationManager] Is configured: False
+[2023-06-01 21:48:11Z INFO CommandSettings] Arg 'url': 'https://github.com/monthebrice2000/github-actions-ci-cd-workflow'
+[2023-06-01 21:48:11Z INFO CommandSettings] Remove url from Arg dictionary.
+[2023-06-01 21:48:11Z INFO CommandSettings] Arg 'token': '***'
+[2023-06-01 21:48:11Z INFO CommandSettings] Remove token from Arg dictionary.
+[2023-06-01 21:48:12Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (5A87:0BAC:A4B167F:A62F2DF:6479121C)
+[2023-06-01 21:48:12Z INFO Terminal] WRITE LINE: Using V2 flow: False
+[2023-06-01 21:48:12Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2023-06-01 21:48:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:12Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:12Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:12Z INFO ConfigurationManager] Test Connection complete.
+[2023-06-01 21:48:12Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:12Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:12Z INFO HostContext] Well known config file 'RSACredentials': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_rsaparams'
+[2023-06-01 21:48:12Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2023-06-01 21:48:13Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_rsaparams
+[2023-06-01 21:48:13Z INFO CommandSettings] Arg 'runnergroup': ''
+[2023-06-01 21:48:13Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:13Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:13Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2023-06-01 21:48:13Z INFO Terminal] WRITE: [press Enter for Default] 
+[2023-06-01 21:48:13Z INFO Terminal] READ LINE
+[2023-06-01 21:48:14Z INFO Terminal] Read value: ''
+[2023-06-01 21:48:14Z INFO PromptManager] Falling back to the default: 'Default'
+[2023-06-01 21:48:14Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:14Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2023-06-01 21:48:14Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-06-01 21:48:14Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2023-06-01 21:48:14Z INFO CommandSettings] Arg 'name': ''
+[2023-06-01 21:48:14Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:14Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:14Z INFO Terminal] WRITE: Enter the name of runner: 
+[2023-06-01 21:48:14Z INFO Terminal] WRITE: [press Enter for DESKTOP-1EC01EM] 
+[2023-06-01 21:48:14Z INFO Terminal] READ LINE
+[2023-06-01 21:48:21Z INFO Terminal] Read value: 'win11-laptop'
+[2023-06-01 21:48:21Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:21Z INFO CommandSettings] Arg 'labels': ''
+[2023-06-01 21:48:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:21Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:21Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2023-06-01 21:48:21Z INFO Terminal] WRITE: [press Enter to skip] 
+[2023-06-01 21:48:21Z INFO Terminal] READ LINE
+[2023-06-01 21:48:27Z INFO Terminal] Read value: 'self-hosted'
+[2023-06-01 21:48:27Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:27Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-06-01 21:48:28Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2023-06-01 21:48:28Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2023-06-01 21:48:28Z INFO ConfigurationStore] Saving OAuth credential @ D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials
+[2023-06-01 21:48:28Z INFO ConfigurationStore] Credentials Saved.
+[2023-06-01 21:48:28Z INFO ConfigurationStore] HasCredentials()
+[2023-06-01 21:48:28Z INFO ConfigurationStore] stored True
+[2023-06-01 21:48:28Z INFO CredentialManager] GetCredentialProvider
+[2023-06-01 21:48:28Z INFO CredentialManager] Creating type OAuth
+[2023-06-01 21:48:28Z INFO CredentialManager] Creating credential type: OAuth
+[2023-06-01 21:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_rsaparams
+[2023-06-01 21:48:28Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:28Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-01 21:48:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:28Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:28Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-01 21:48:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:28Z INFO RunnerServer] EstablishVssConnection
+[2023-06-01 21:48:28Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-01 21:48:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-01 21:48:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-01 21:48:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_rsaparams
+[2023-06-01 21:48:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.credentials_rsaparams
+[2023-06-01 21:48:30Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-01 21:48:30Z INFO CommandSettings] Arg 'work': ''
+[2023-06-01 21:48:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:30Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:30Z INFO Terminal] WRITE: Enter name of work folder: 
+[2023-06-01 21:48:30Z INFO Terminal] WRITE: [press Enter for _work] 
+[2023-06-01 21:48:30Z INFO Terminal] READ LINE
+[2023-06-01 21:48:32Z INFO Terminal] Read value: ''
+[2023-06-01 21:48:32Z INFO PromptManager] Falling back to the default: '_work'
+[2023-06-01 21:48:32Z INFO ConfigurationStore] Saving runner settings.
+[2023-06-01 21:48:32Z INFO ConfigurationStore] Settings Saved.
+[2023-06-01 21:48:32Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:32Z INFO Terminal] WRITE LINE: 
+[2023-06-01 21:48:32Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2023-06-01 21:48:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:32Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:32Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2023-06-01 21:48:32Z INFO Terminal] WRITE: [press Enter for N] 
+[2023-06-01 21:48:32Z INFO Terminal] READ LINE
+[2023-06-01 21:48:34Z INFO Terminal] Read value: 'Y'
+[2023-06-01 21:48:34Z INFO ConfigurationManager] Configuring to run the agent as service
+[2023-06-01 21:48:34Z INFO CommandSettings] Arg 'windowslogonaccount': ''
+[2023-06-01 21:48:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-01 21:48:34Z INFO PromptManager] ReadValue
+[2023-06-01 21:48:34Z INFO Terminal] WRITE: User account to use for the service 
+[2023-06-01 21:48:34Z INFO Terminal] WRITE: [press Enter for AUTORITE NT\SERVICE RÉSEAU] 
+[2023-06-01 21:48:34Z INFO Terminal] READ LINE
+[2023-06-01 21:48:45Z INFO Terminal] Read value: ''
+[2023-06-01 21:48:45Z INFO PromptManager] Falling back to the default: 'AUTORITE NT\SERVICE RÉSEAU'
+[2023-06-01 21:48:45Z INFO WindowsServiceControlManager] LogonAccount after transforming: AUTORITE NT\SERVICE RÉSEAU, user: SERVICE RÉSEAU, domain: AUTORITE NT
+[2023-06-01 21:48:45Z INFO WindowsServiceControlManager] Service name 'actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop' display name 'GitHub Actions Runner (monthebrice2000-github-actions-ci-cd-workflow.win11-laptop)' will be used for service configuration.
+[2023-06-01 21:48:45Z INFO WindowsServiceControlManager] Verifying if the account has LogonAsService permission
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Successfully grant logon as service privilege to account 'SERVICE RÉSEAU'
+[2023-06-01 21:48:45Z INFO WindowsServiceControlManager] Create local group and grant folder permission to service logon account.
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:45Z INFO ConfigurationStore] Read setting file: 323 chars
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Work': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\_work'
+[2023-06-01 21:48:45Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Calculated unique group name GITHUB_ActionsRunner_Gab6a4
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Trying to create group GITHUB_ActionsRunner_Gab6a4
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Local Group 'GITHUB_ActionsRunner_Gab6a4' created
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Trying to add userName AUTORITE NT\SERVICE RÉSEAU to the group GITHUB_ActionsRunner_Gab6a4
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Account 'AUTORITE NT\SERVICE RÉSEAU' is added to local group 'GITHUB_ActionsRunner_Gab6a4'.
+[2023-06-01 21:48:45Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner
+[2023-06-01 21:48:46Z INFO NativeWindowsServiceHelper] Set full access control to group for the folder D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\_work
+[2023-06-01 21:48:46Z INFO NativeWindowsServiceHelper] Local group 'GITHUB_ActionsRunner_Gab6a4' already has full control to path 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\_work'.
+[2023-06-01 21:48:46Z INFO Terminal] WRITE LINE: Granting file permissions to 'AUTORITE NT\SERVICE RÉSEAU'.
+[2023-06-01 21:48:46Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   File name: '"D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin\RunnerService.exe"'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Arguments: 'init'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper] Process started with process id 10028, waiting for process exit.
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-01 21:48:46Z INFO ProcessInvokerWrapper] Finished process 10028 with exit code 0, and elapsed time 00:00:00.3123370.
+[2023-06-01 21:48:46Z INFO Terminal] WRITE LINE: Service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop successfully installed
+[2023-06-01 21:48:46Z INFO Terminal] WRITE LINE: Service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop successfully set recovery option
+[2023-06-01 21:48:46Z INFO Terminal] WRITE LINE: Service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop successfully set to delayed auto start
+[2023-06-01 21:48:46Z INFO Terminal] WRITE LINE: Service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop successfully configured
+[2023-06-01 21:48:46Z INFO HostContext] Well known directory 'Bin': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\bin'
+[2023-06-01 21:48:46Z INFO HostContext] Well known directory 'Root': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner'
+[2023-06-01 21:48:46Z INFO HostContext] Well known config file 'Service': 'D:\Projects\projets-ci-cd\github-actions-ci-cd-workflow\actions-runner\.service'
+[2023-06-01 21:48:46Z INFO WindowsServiceControlManager] Configuration was successful, trying to start the service
+[2023-06-01 21:48:46Z ERR  NativeWindowsServiceHelper] System.InvalidOperationException: Cannot start service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop on computer '.'.
+ ---> System.ComponentModel.Win32Exception (1068): Le service ou le groupe de dépendance n’a pas pu démarrer.
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.Start(String[] args)
+   at System.ServiceProcess.ServiceController.Start()
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+[2023-06-01 21:48:46Z ERR  NativeWindowsServiceHelper] #####################################################
+[2023-06-01 21:48:46Z ERR  NativeWindowsServiceHelper] System.ComponentModel.Win32Exception (1068): Le service ou le groupe de dépendance n’a pas pu démarrer.
+[2023-06-01 21:48:46Z ERR  Terminal] WRITE ERROR: Cannot start the service. Check the logs for more details.
+[2023-06-01 21:48:46Z ERR  Runner] System.InvalidOperationException: Cannot start service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop on computer '.'.
+ ---> System.ComponentModel.Win32Exception (1068): Le service ou le groupe de dépendance n’a pas pu démarrer.
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.Start(String[] args)
+   at System.ServiceProcess.ServiceController.Start()
+   at GitHub.Runner.Listener.Configuration.NativeWindowsServiceHelper.StartService(String serviceName)
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2023-06-01 21:48:46Z ERR  Runner] #####################################################
+[2023-06-01 21:48:46Z ERR  Runner] System.ComponentModel.Win32Exception (1068): Le service ou le groupe de dépendance n’a pas pu démarrer.
+[2023-06-01 21:48:46Z ERR  Terminal] WRITE ERROR: Cannot start service actions.runner.monthebrice2000-github-actions-ci-cd-workflow.win11-laptop on computer '.'.
+[2023-06-01 21:48:46Z INFO Listener] Runner execution has finished with return code 1
