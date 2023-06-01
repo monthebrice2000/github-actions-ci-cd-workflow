@@ -33,7 +33,7 @@
 <img src="3-two.png" alt="exemplo imagem">
 <img src="3-three.png" alt="exemplo imagem">
 
-
+ 
 # Build and deploy apis in azure container app 
 
 <img src="4-one.png" alt="exemplo imagem">
