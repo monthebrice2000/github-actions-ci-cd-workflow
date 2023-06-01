@@ -27,7 +27,7 @@
 name: Build and Deploy a container to an Azure Container Apps (ACA)
 
 env:
-  IMAGE_NAME: BriceDockerRegistry
+  IMAGE_NAME: brice123
   CONTAINERAPPS_APP: saas-backend-server
   CONTAINERAPPS_ENVIRONMENT: saas-environment
   RESOURCE_GROUP: ${{secrets.AZURE_RESOURCE_GROUP}}
