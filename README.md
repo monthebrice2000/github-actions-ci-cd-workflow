@@ -20,6 +20,29 @@
 <img src="sample-four.png" alt="exemplo imagem">
 <img src="sample-five.png" alt="exemplo imagem">
 
+
+# Build resources with terraform and deploy to azure active directory
+
+<img src="2-one.png" alt="exemplo imagem">
+<img src="2-two.png" alt="exemplo imagem">
+
+# Build and deploy image to azure registry
+### Ajustes e melhorias
+
+<img src="3-one.png" alt="exemplo imagem">
+<img src="3-two.png" alt="exemplo imagem">
+<img src="3-three.png" alt="exemplo imagem">
+
+
+# Build and deploy apis in azure container app 
+
+<img src="4-one.png" alt="exemplo imagem">
+<img src="4-two.png" alt="exemplo imagem">
+<img src="4-three.png" alt="exemplo imagem">
+<img src="4-four.png" alt="exemplo imagem">
+
+
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
