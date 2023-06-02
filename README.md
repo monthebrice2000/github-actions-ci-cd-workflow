@@ -14,32 +14,32 @@
 
 ## Results
 
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/sample-one.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/sample-two.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/sample-three.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/sample-four.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/sample-five.png" alt="exemplo imagem">
+<img src="./sample-one.PNG" alt="exemplo imagem">
+<img src="./sample-two.PNG" alt="exemplo imagem">
+<img src="./sample-three.PNG" alt="exemplo imagem">
+<img src="./sample-four.PNG" alt="exemplo imagem">
+<img src="./sample-five.PNG" alt="exemplo imagem">
 
 
 # Build resources with terraform and deploy to azure active directory
 
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/2-one.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/2-two.png" alt="exemplo imagem">
+<img src="./2-one.PNG" alt="exemplo imagem">
+<img src="./2-two.PNG" alt="exemplo imagem">
 
 # Build and deploy image to azure registry
 ### Ajustes e melhorias
 
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/3-one.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/3-two.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/3-three.png" alt="exemplo imagem">
+<img src="./3-one.PNG" alt="exemplo imagem">
+<img src="./3-two.PNG" alt="exemplo imagem">
+<img src="./3-three.PNG" alt="exemplo imagem">
 
  
 # Build and deploy apis in azure container app 
 
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/4-one.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/4-two.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/4-three.png" alt="exemplo imagem">
-<img src="https://raw.githubusercontent.com/monthebrice2000/github-actions-ci-cd-workflow/master/4-four.png" alt="exemplo imagem">
+<img src="./4-one.PNG" alt="exemplo imagem">
+<img src="./4-two.PNG" alt="exemplo imagem">
+<img src="./4-three.PNG" alt="exemplo imagem">
+<img src="./4-four.PNG" alt="exemplo imagem">
 
 
 
