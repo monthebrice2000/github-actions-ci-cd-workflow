@@ -10,7 +10,7 @@
 
 <img src="githubcicd.png" alt="exemplo imagem">
 
-> ce projet présente les templates pour build et déployer nos applications sur le cloud azure de facon continue sans oublier de gérer l'intégration continue.
+> ce projet présente les templates pour build et déployer nos applications sur le cloud azure de facon continue sans oublier de gérer l'intégration continue, la livraison continue et le déploiement continue.
 
 ## Results
 
