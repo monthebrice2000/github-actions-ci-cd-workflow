@@ -27,9 +27,9 @@
 name: Scan CVE in docker image with Docker scout
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #  branches:
+  #    - master
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -101,6 +101,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            console.log( ${{github.workspace}} )
             const body = `
             **JSON File Content:**
             \`\`\`
