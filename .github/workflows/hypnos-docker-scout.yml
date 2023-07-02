@@ -1,0 +1,126 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow helps you trigger a SonarQube analysis of your code and populates
+# GitHub Code Scanning alerts with the vulnerabilities found.
+# (this feature is available starting from SonarQube 9.7, Developer Edition and above)
+
+# 1. Make sure you add a valid GitHub configuration to your SonarQube (Administration > DevOps platforms > GitHub)
+
+# 2. Import your project on SonarQube
+#     * Add your repository as a new project by clicking "Create project" from your homepage.
+#
+# 3. Select GitHub Actions as your CI and follow the tutorial
+#     * a. Generate a new token and add it to your GitHub repository's secrets using the name SONAR_TOKEN
+#          (On SonarQube, click on your avatar on top-right > My account > Security or ask your administrator)
+#
+#     * b. Copy/paste your SonarQube host URL to your GitHub repository's secrets using the name SONAR_HOST_URL
+#
+#     * c. Copy/paste the project Key into the args parameter below
+#          (You'll find this information in SonarQube by following the tutorial or by clicking on Project Information at the top-right of your project's homepage)
+
+# Feel free to take a look at our documentation (https://docs.sonarqube.org/latest/analysis/github-integration/)
+# or reach out to our community forum if you need some help (https://community.sonarsource.com/c/sq/10)
+
+name: Scan CVE in docker image with Docker scout
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+  workflow_dispatch:
+env:
+  DOCKER_IMAGE_NAME: hypnos:$(date +%s)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      
+      - name: change working directory
+        run: |
+          cd ./hypos-dockerscout-cicd
+      
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag $DOCKER_IMAGE_NAME
+    
+      - name: Install Docker Scout
+        # if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh -o install-scout.sh
+          sh install-scout.sh
+    
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Run Docker Scout
+        # if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          docker scout cves --ignore-base --format sarif --output hypnos.sarif.json
+          
+      #- name: Docker Scout
+      #  if: ${{ github.event_name == 'pull_request' }}
+      #  uses: docker/scout-action@dd36f5b0295baffa006aa6623371f226cc03e506
+      #  with:
+      #    command: cves
+      #    args: --ignore-base --format sarif --output hypnos.sarif.json
+      #    image: ${{ github.repository }}:$(date +%s)
+      #    ignore-unchanged: true
+      #    token: ${{ secrets.DOCKERHUB_PAT }}
+      
+      - name: Check vulnerabilities
+        id: check_vulnerabilities
+        # if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          if [[ $(cat hypnos.sarif.json | jq '.runs[0].results | length') -gt 0 ]]; then
+            echo -e "\e[31mThere were vulnerabilities in your Docker image. Check the comments on your PR to know more.\e[0m"
+            echo "fail_workflow=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "There were no vulnerabilities in your Docker image. Good job!"
+            echo "fail_workflow=false" >> "$GITHUB_OUTPUT"
+          fi
+  
+      - name: Create Comment
+        if: ${{ github.event_name == 'pull_request' && steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const body = `
+            **JSON File Content:**
+            \`\`\`
+            ${fs.readFileSync('hypnos.sarif.json', 'utf8')}
+            \`\`\`
+            `;
+            await github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
+
+      - name: Fail Workflow
+        # if: ${{ github.event_name == 'pull_request' && steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
+        if: ${{ steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
+        run: exit 1
+
+      - name: Tag the Docker image
+        # if: ${{ github.event_name == 'push' }}
+        run: docker image tag $DOCKER_IMAGE_NAME ${{ secrets.DOCKERHUB_USERNAME }}/$DOCKER_IMAGE_NAME
+
+      - name: Publish the Docker image
+        # if: ${{ github.event_name == 'push' }}
+        run: docker image push ${{ secrets.DOCKERHUB_USERNAME }}/$DOCKER_IMAGE_NAME 
