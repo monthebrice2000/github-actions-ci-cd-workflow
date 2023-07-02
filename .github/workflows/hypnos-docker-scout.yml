@@ -62,7 +62,7 @@ jobs:
             const body = `
             **JSON File Content:**
             \`\`\`
-            ${fs.readFileSync(`${directory}/hypos-dockerscout-cicd/hypnos.sarif.json`, 'utf8')}
+            ${fs.readFileSync(`${{ github.workspace }}/hypos-dockerscout-cicd/hypnos.sarif.json`, 'utf8')}
             \`\`\`
             `;
             await github.issues.createComment({
