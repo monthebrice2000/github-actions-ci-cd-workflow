@@ -67,7 +67,9 @@ jobs:
       - name: Run Docker Scout
         # if: ${{ github.event_name == 'pull_request' }}
         run: |
-          docker scout cves --ignore-base --format sarif --output hypnos.sarif.json
+          docker scout cves --ignore-base --format sarif --output ./hypnos.sarif.json
+          ls -al 
+          
           
       #- name: Docker Scout
       #  if: ${{ github.event_name == 'pull_request' }}
