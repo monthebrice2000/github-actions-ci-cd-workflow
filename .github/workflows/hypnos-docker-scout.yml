@@ -36,7 +36,7 @@ on:
       - master
   workflow_dispatch:
 env:
-  DOCKER_IMAGE_NAME: hypnos:$(date +%s)
+  DOCKER_IMAGE_NAME: hypnos
 
 jobs:
   build:
