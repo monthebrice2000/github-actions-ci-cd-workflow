@@ -39,7 +39,7 @@ env:
   DOCKER_IMAGE_NAME: hypnos
 
 jobs:
-  build:
+  build-scan-push-deploy:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -92,7 +92,8 @@ jobs:
           fi
   
       - name: Create Comment
-        if: ${{ github.event_name == 'pull_request' && steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
+        # if: ${{ github.event_name == 'pull_request' && steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
+        if: ${{ steps.check_vulnerabilities.outputs.fail_workflow == 'true' }}
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
