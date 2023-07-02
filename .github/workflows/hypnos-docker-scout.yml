@@ -39,7 +39,7 @@ env:
   DOCKER_IMAGE_NAME: hypnos
 
 jobs:
-  build-scan-push-deploy:
+  build-scan-push:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -68,7 +68,7 @@ jobs:
         # if: ${{ github.event_name == 'pull_request' }}
         run: |
           docker scout cves --ignore-base --format sarif --output ./hypnos.sarif.json
-          ls -al 
+          # ls -al 
           
           
       #- name: Docker Scout
@@ -104,7 +104,7 @@ jobs:
             const body = `
             **JSON File Content:**
             \`\`\`
-            ${fs.readFileSync('hypnos.sarif.json', 'utf8')}
+            ${fs.readFileSync(`${github.workspace}/hypos-dockerscout-cicd/hypnos.sarif.json`, 'utf8')}
             \`\`\`
             `;
             await github.issues.createComment({
@@ -125,4 +125,28 @@ jobs:
 
       - name: Publish the Docker image
         # if: ${{ github.event_name == 'push' }}
-        run: docker image push ${{ secrets.DOCKERHUB_USERNAME }}/$DOCKER_IMAGE_NAME 
+        run: docker image push ${{ secrets.DOCKERHUB_USERNAME }}/$DOCKER_IMAGE_NAME
+
+  deploy:
+    needs: build-scan-push
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2 
+      - name: Deploy in EC2
+        env:
+            PRIVATE_KEY: ${{ secrets.AWS_PRIVATE_KEY  }}
+            HOSTNAME : ${{ secrets.AWS_EC2_HOSTNAME  }}
+            USER_NAME : ${{ secrets.AWS_EC2_USER_NAME  }}
+            
+        run: |
+          echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+          ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
+          
+            #Now we have got the access of EC2 and we will start the deploy .
+            cd /home/ubuntu/CounterApp &&
+            git checkout master &&
+            git fetch --all &&
+            git reset --hard origin/master &&
+            git pull origin master &&
+            docker-compose -f docker-compose.prod.yml up -d --build 
